@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637941945133301776
-    m_Hash: 888825463
+      ticks: 637941948895664870
+    m_Hash: 1723363966
   m_LockFileStatus:
     m_FilePath: C:/dev/Only_My/3D_person/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637941945133371406
-    m_Hash: 3671482373
+      ticks: 637941948895674843
+    m_Hash: 1724872929
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
