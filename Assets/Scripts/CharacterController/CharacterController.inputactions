@@ -1,0 +1,54 @@
+{
+    "name": "CharacterController",
+    "maps": [
+        {
+            "name": "PlayerInputController",
+            "id": "385afe65-c7f5-43c7-ad72-02c588f8025a",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "74277541-916e-4bc1-9454-ddd83f70f0f9",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Aim",
+                    "type": "PassThrough",
+                    "id": "88676edb-e8fb-4bdb-b7de-9cc69a4e166c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "74b8320a-c1ca-4436-8fc3-c31cd2cb024f",
+                    "path": "<Keyboard>/w",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a833213e-439d-4c3c-84ad-91b2ef22d945",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
